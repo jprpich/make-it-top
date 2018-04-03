@@ -1,3 +1,20 @@
 body {
-  color: red;
+  background: url("images/katerina.jpg");
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+}
+
+header {
+  margin-top: 150px;
+  height: 100vh;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+#rounded-img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
 }
