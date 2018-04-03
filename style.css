@@ -1,18 +1,29 @@
-body {
-  background: url("images/katerina.jpg");
-  background-size: cover;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
   font-family: 'Indie Flower', cursive;
 }
 
-header {
-  margin-top: 150px;
+.image-background {
   height: 100vh;
+  margin: 0 auto;
+  width: 85%;
+  background: url("images/katerina.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
   text-align: center;
   font-size: 1.2em;
 }
 
-
 #rounded-img {
+  margin-top: 100px;
   border-radius: 50%;
   height: 200px;
   width: 200px;

@@ -27,16 +27,16 @@
 
 
 
-function hypotenuse(a,b){
-  var result = Math.sqrt((a * a) + (b * b));
-  return result;
-}
+// function hypotenuse(a,b){
+//   var result = Math.sqrt((a * a) + (b * b));
+//   return result;
+// }
 
-console.log(hypotenuse(3,4))
+// console.log(hypotenuse(3,4))
 
 
-console.log(hypotenuse(3, 4));    // retorna 5
-console.log(hypotenuse(10, 13));  // retorna 16.401219466856727
+// console.log(hypotenuse(3, 4));    // retorna 5
+// console.log(hypotenuse(10, 13));  // retorna 16.401219466856727
 
 
 
